@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="sketch.js" defer></script>
+    <title>odin-etch-a-sketch</title>
+</head>
+<body>
+    <div class="palette">
+        <button class="default">Default</button>
+        <button class="colour">Colour
+            <input type="color" class="colour-picker" value="#000000" >
+        </button>
+        <button class="eraser">Eraser</button>
+    </div>
+    
+    <div class="head-box">
+    <h1>Etch-a-Sketch</h1>
+    <div class="container"></div>
+    <div class="footer"><a href="https://github.com/MushCodes">
+        Made by: MushCodes</a>
+    </div>
+    </div>
+
+    <div class="settings">
+        <p class="slider-value">16 x 16</p>
+        <input class="slider" type="range" min="1" max="66" value="16">
+        <button class="clear">Clear/Apply</button>
+    </div>
+</body>
+</html>
